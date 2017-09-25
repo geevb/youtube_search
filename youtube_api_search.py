@@ -23,7 +23,7 @@ def youtube_search(search_term):
     words.append(each_title)
     words.append(each_description)
 
-  # Capitalize all letters to make an appropriate counting and insert them in a new list.
+  # For each word inside words[], capitalize all of them to make an appropriate counting and insert them in a new list.
   for each_word in words:
     each_caps_words = [word.upper() for word in re.findall(r'\w+', each_word)]
     for w in each_caps_words:
@@ -36,7 +36,7 @@ def youtube_search(search_term):
 def show_videos_found(list_of_videos):
   # Google's maximum results is 50.
   # Print the whole list of Video Titles found.
-  print ("50 Videos found: ")
+  print ("\n50 First videos found: ")
   for p in list_of_videos: print (p)
   print ("")
 
@@ -44,7 +44,7 @@ def show_videos_found(list_of_videos):
 def show_most_used_words(list_of_words, num_words):
   # Count all equal words are ordenate them by most repeated(used).
   c = Counter(list_of_words)
-  print ((str)(num_words) + " most used words in titles and descriptions: ")
+  print ((str)(num_words) + " most used words in titles and descriptions combined: ")
   print ([x[0] for x in c.most_common(num_words)])
 
 

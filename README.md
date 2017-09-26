@@ -14,10 +14,10 @@ Python 3 must be installed beforehand.
 
 The first step will be cloning or downloading this repository Youtube_Search.
 
-Secondly, Google APIs need a exclusive DEV KEY to be used in order to access their APIs, therefore, head over to the script's code and change the content of the DEV_KEY variable to your own.
+Secondly, Google APIs need an exclusive DEV KEY in order to access their APIs, therefore, after getting it, head over to the script's code and change the content of the DEV_KEY variable to your own.
 Your DEV_KEY can be created/found in: https://developers.google.com/api-client-library/python/guide/aaa_apikeys
 
-Thirdly, execute the script with python3 python3 youtube_api_search.py, answer the prompts and everything shall take it's place.
+Thirdly, execute the script with *python3 youtube_api_search.py*, answer the prompts and everything shall take it's place.
 
 All of the results will be presented on the terminal.
 

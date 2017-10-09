@@ -1,6 +1,6 @@
-# FullStack Developer Challenge
+# YouTube's API Search 
 
-A challenge with the purpose of analyzing the candidate's programming knowledge with a real problem. Designed to be a task for searching YouTube's videos.
+Designed to be a solution for searching YouTube's videos.
 
 ## Getting Started
 
@@ -24,7 +24,3 @@ All of the results will be presented on the terminal.
 ## Authors
 
 * **Getúlio Vieira Benincá**
-
-## Acknowledgments
-
-* Thanks to all of the Ahgora's HR Department for this opportunity.
